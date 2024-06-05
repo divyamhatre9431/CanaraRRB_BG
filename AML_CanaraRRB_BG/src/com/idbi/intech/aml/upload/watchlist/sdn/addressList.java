@@ -1,0 +1,26 @@
+package com.idbi.intech.aml.upload.watchlist.sdn;
+
+import java.util.List;
+
+import javax.xml.bind.annotation.XmlAccessType;
+import javax.xml.bind.annotation.XmlAccessorType;
+import javax.xml.bind.annotation.XmlElement;
+
+@XmlAccessorType(XmlAccessType.FIELD)
+public class addressList {
+	
+	@XmlElement
+	public List<address> address;
+
+	public List<address> getAddress() {
+		return address;
+	}
+
+	public void setAddress(List<address> address) {
+		this.address = address;
+	}
+
+	
+	
+	
+}
